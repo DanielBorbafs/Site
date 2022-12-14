@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Borba</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="header">
+
+    <div img src="construcao.png"></div>
+    <a href="#" class="logo">
+        <img src="construcao.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="http://127.0.0.1:5500/inicio.html">Página Inicial</a>
+        <a href="http://127.0.0.1:5500/comoeutrabalho.html">Como eu trabalho</a>
+        <a href="http://127.0.0.1:5500/Projetos.html">Projetos feitos</a>
+        <a href="http://127.0.0.1:5500/Catalogo.html">Cátalogo Completo
+
+        </a>
+        <a href="#review">Clientes</a>
+        <a href="#contact">Contato</a>
+       
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="" alt="">
+            <div class="content">
+                <h3>cart item 01</h3>
+                <div class="price">R$150,00/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="" alt="">
+            <div class="content">
+                <h3>cart item 02</h3>
+                <div class="price">R$200,00/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="" alt="">
+            <div class="content">
+                <h3>cart item 03</h3>
+                <div class="price">R$200,00/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="" alt="">
+            <div class="content">
+                <h3>cart item 04</h3>
+                <div class="price">R$200,00/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">Comprar agora</a>
+    </div>
+
+</header>
+
+
+
+<section class="home" id="home">
+    
+    <div class="fundo" id="fundo">
+    <img src="fundosite.png" alt="fundo site">
+    <img left = 1000px>
+    </div>
+    <div class="content">
+        <h3>Sobre Meus Planos:</h3>
+        <p>Produtos com Hospedagem:<br>
+            Eu mesmo me encarrego de registrar o domínio e a hospedagem de acordo com sua necessidade e entrego tudo pronto!<br>
+            <br>
+                     Produtos sem Hospedagem:<br>
+            Eu irei criar o seu site e depois irei te enviar todos arquivos para que você mesmo registre o domínio e hospede o mesmo (caso tenha conhecimento).
+            <br>
+            <br>
+            Após você decidir qual produto irá adquirir clique no botão<br> 'Fale Comigo', que irá te encaminhar para meu whatsapp onde vamos conversar sobre seu site e consultar quanto tempo vai demorar!
+        </p>
+    
+        <a class="fundo" img src="construcao.png">TESET</a>
+        <a href="" class="btn">Vamos lá!</a>
+         
+    </div>
+    <div class="fundo" id="fundo">
+        <img src="fundosite.png" alt="fundo site">
+        </div>
+
+</section>
+
+
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>Sobre</span> meu trabalho </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="construcao.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Todo trabalho é feito manual!</h3>
+            <p>Utilizo Html, CSS E JS para criar todos os sites.</p>
+            <p>Após sua compra iremos bater um papo onde você me mostrará oque deseja e compartilharemos algumas idéias
+            para deixar o site com sua cara!
+            OBS:  Dependendo do modelo escolhido o site levará de 2 a 5 dias para ficar pronto, dependendo da complexidade entrego até mesmo antes!
+
+            </p>
+            <a href="#" class="btn">Leia mais</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="menu" id="menu">
+
+    <h1 class="heading"> Projetos <span> Realizados</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="construcao.png" alt="">
+            <h3>Criação de Site para Droppshing</h3>
+            <div class="price">Html + JS + CSS <span></span></div>
+            <a href="#" class="btn">Dê uma olhada</a>
+        </div>
+
+        <div class="box">
+            <img src="construcao.png" alt="">
+            <h3>Programa de cadastro p/ logística</h3>
+            <div class="price">Python + mysql <span></span></div>
+            <a href="#" class="btn">Dê uma olhada</a>
+        </div>
+
+        <div class="box">
+            <img src="construcao.png" alt="">
+            <h3>App mobile </h3>
+            <div class="price">Uso próprio <span></span></div>
+            <a href="#" class="btn">Dê uma olhada</a>
+        </div>
+
+        <div class="box">
+            <img src="construcao.png" alt="">
+            <h3>Banco de dados</h3>
+            <div class="price">MYSQL <span></span></div>
+            <a href="#" class="btn">Dê uma olhada</a>
+        </div>
+
+        <div class="box">
+            <img src="construcao.png" alt="">
+            <h3>???????</h3>
+            <div class="price">Mande o seu!<span></span></div>
+            <a href="#" class="btn">Dê uma olhada</a>
+        </div>
+
+        <div class="box">
+            <img src="construcao.png" alt="">
+            <h3>???????</h3>
+            <div class="price">Mande o seu<span></span></div>
+            <a href="#" class="btn">Dê uma olhada</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!--  menu  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> Mais <span>Comprados</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="construcao.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Landing Page Sem hospedagem</h3>
+                <div class="stars">
+                    <br>
+                    <a href="#" class="btn">Saiba mais</a>
+                </div>
+                <div class="price">R$100,00<span><br>R$200,00</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="construcao.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Landing Page + Hospedagem</h3>
+                <div class="stars">
+                    <br>
+                    <a href="#" class="btn">Saiba mais</a>
+                </div>
+                <div class="price">R$250,00<span><br>R$300,00</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="construcao.png" alt="Projeto">
+            </div>
+            <div class="content">
+                <h3>Site até 5 menus sem hospedagem</h3>
+                <div class="stars">
+                    <a href="#" class="btn">Saiba mais</a>
+                </div>
+                <div class="price">R$350,00<span><br>R$600,00</span></div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Sessão de reviews e opiniões  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">Opiniões<span> dos meus clientes</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <p>Foi um prazer trabalhar com o Dan, implementamos o site em nossa empresa e está muito mais bonito doque o esperado. Com certeza iniciaremos novos projetos!</p>
+            <img src="" class="user" alt="">
+            <h3>IARA</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+       
+            <p>Implementamos o Danzo em nossa loja esssa semana e está suprindo todas nossas necessidades, uma interface muito bonita além de ser fácil de mexer. Muito obrigado amigo!</p>
+            <img src="" class="user" alt="">
+            <h3>JOÃO</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        
+        <div class="box">
+            <p>Sistema super efizar, sempre que quis mudar alguma coisa eu comuniquei ao Dan e ele sempre me ajudou da melhor forma com toda paciência e educaçao!</p>
+            <img src="i" class="user" alt="">
+            <h3>GUILHERME</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span></span> CONTATE</h1>
+
+    <div class="row">
+
+        <iframe class="map" src="" allowfullscreen="" loading="lazy"></iframe>
+
+        <form action="COLOCAR LINK AQUI">
+            <h3>Deseja algo mais específico?</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="nome">
+            </div>
+            <div class="inputBox"> 
+                <span class="fas fa-envelope"></span>
+                <input type="message" placeholder="Escreva aqui ou me chame nas redes sociais">
+                
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="numero">
+            </div>
+            <input type="submit" value="CONTATE-ME" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+
+<section class="footer">
+
+    <div class="share">
+        <a href="https://api.whatsapp.com/send?phone=5527996211792" class="fab fa-whatsapp" >
+        <a href="https://www.instagram.com/daniielborba/" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/daniel-borba-aa0782163/" class="fab fa-linkedin"></a>
+        <a href="https://github.com/DanielBorbafs" class="fab fa-github"></a>
+    </div>
+
+    <div class="links">
+        <a href="http://127.0.0.1:5500/inicio.html">Início</a>
+        <a href="#">Menu</a>
+        <a href="#">Produtos</a>
+        <a href="#">Clientes</a>
+        <a href="#">Contatos</a>
+        <a href="#">GitHub</a>
+    </div>
+
+
+</section>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
